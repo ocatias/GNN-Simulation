@@ -1,0 +1,13 @@
+epochs: [100]
+min_lr: [0]
+virtual_node: [0]
+lr_schedule_patience: [101]
+tracking: [0]
+
+model: ["GCN"]
+batch_size: [32]
+emb_dim: [64, 256]
+drop_out: [0.5]
+num_layer: [1, 2, 3, 4, 5]
+pooling: ["sum", "mean"]
+lr:  [0.001, 0.0001]

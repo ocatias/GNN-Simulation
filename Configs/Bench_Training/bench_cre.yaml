@@ -1,0 +1,21 @@
+epochs: [100]
+virtual_node: [0]
+tracking: [0]
+
+batch_size: [128]
+lr:  [0.001]
+lr_schedule_patience: [105]
+lr_scheduler: ["ReduceLROnPlateau"]
+
+model: ["GIN"]
+emb_dim: [256]
+drop_out: [0.5]
+num_layer: [3]
+pooling: ["sum"]
+
+rings: [1]
+expl_type_enc: [1]
+max_struct_size: [6]
+aggr_edge_atr: [1]
+aggr_vertex_feat: [1]
+dim_pooling: [0]

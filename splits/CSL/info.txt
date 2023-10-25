@@ -1,0 +1,2 @@
+CSL splits are taken from https://github.com/graphdeeplearning/benchmarking-gnns/tree/master/data/CSL
+See: Benchmarking Graph Neural Networks; Dwivedi et al. https://arxiv.org/pdf/2003.00982.pdf 

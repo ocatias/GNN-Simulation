@@ -1,0 +1,14 @@
+epochs: [350]
+batch_size: [8, 12]
+emb_dim: [64, 160]
+drop_out: [0]
+dim_pooling: [0]
+num_layer: [1,2,3,4,5]
+lr:  [1e-4, 5e-4]
+virtual_node: [0]
+lr_schedule_patience: [20]
+tracking: [1]
+min_lr: [1e-6]
+node_encoder: [0]
+
+

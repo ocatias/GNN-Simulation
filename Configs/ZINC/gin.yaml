@@ -1,0 +1,17 @@
+epochs: [1000]
+virtual_node: [0]
+tracking: [0]
+
+batch_size: [128]
+lr:  [0.001]
+lr_schedule_patience: [20]
+lr_scheduler: ["ReduceLROnPlateau"]
+lr_scheduler_decay_rate: [0.5]
+lr_schedule_patience: [20]
+min_lr: [1e-5]
+
+model: ["GIN"]
+emb_dim: [64, 256]
+drop_out: [0.5]
+num_layer: [1, 2, 3, 4, 5]
+pooling: ["sum", "mean"]

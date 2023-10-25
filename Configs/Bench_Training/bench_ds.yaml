@@ -1,0 +1,20 @@
+epochs: [100]
+virtual_node: [0]
+tracking: [0]
+
+batch_size: [128]
+lr:  [0.001]
+lr_schedule_patience: [105]
+lr_scheduler: ["ReduceLROnPlateau"]
+
+model: ["ZINCGIN"]
+emb_dim: [351]
+drop_out: [0.5]
+num_layer: [3]
+pooling: ["sum"]
+
+policy: ["ego_nets"]
+esan: [1]
+mode: ["GIN"]
+num_hops: [3]
+dss_message_passing: [0]
